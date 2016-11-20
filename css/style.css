@@ -377,11 +377,24 @@ footer {
     }
 
     .col-acercade2 {
-        height: 315px;
+        height: 222px;
     }
 
     .col-acercade3 {
-        height: 285px
+        height: 344px;
+    }
+
+    .image-acerca{
+        margin:7px auto;
+        border-radius: 15px;
+    }
+
+    .image-acercade{
+        border-radius: 15px;
+    }
+
+    .text-acercade1{
+        padding:37px;
     }
 }
 
