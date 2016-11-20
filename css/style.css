@@ -1,0 +1,393 @@
+body {
+    background: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+}
+
+h1,h2{
+    padding:10px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+footer {
+    text-align: right;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+
+/* INICIO PAGINA DE ACERCA DE */
+.row {
+    padding: 25px 0;
+}
+
+.col-acercade1 {
+    background-color: #241D11;
+    border-radius:15px;
+    box-shadow: 10px 10px 15px #FCD36D;
+}
+
+.col-acercade2 {
+    background-color: #241D11;
+    border-radius:15px;
+    box-shadow: 10px 10px 15px #FCD36D;
+}
+
+.col-acercade3 {
+    background-color: #241D11;
+    border-radius:15px;
+    box-shadow: 10px 10px 15px #FCD36D;
+}
+
+.col,.col1 {
+    background-color: #241D11;
+    border-radius:15px;
+    box-shadow: 10px 10px 15px #FCD36D;
+}
+
+.col4 {
+    box-shadow: 10px 10px 15px #FCD36D;   
+    border-radius:  15px;
+}
+
+.col3 {
+    background-color: #241D11;
+    border-radius:15px;
+    box-shadow: 10px 10px 15px #FCD36D;
+}
+
+.image-acerca {
+    margin: 15px auto;
+}
+
+.image-acercade {
+    margin: 5px auto;
+}
+
+.text-acercade {    
+    color: white;
+}
+
+.text-acercade1 {
+    color: white;
+}
+
+/*  CONTACTO */
+.form-group {
+    margin-bottom: 170px;
+}
+
+/* INICIO PAGINA DE MULTIMEDIA */
+
+.multimedia {
+    background: black url(../images/logo.png) repeat;
+}
+
+.col-multimedia{
+    background-color: #241D11;
+}
+
+.audio-title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+.audio-info a {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+}
+
+.playlist {
+    background:#241D11;
+    border-radius: 15px
+    box-shadow: 10px 10px 15px #FCD36D;
+}
+
+#playlist, audio
+ {
+    background: #666;
+    width: 100%;
+    padding: 20px;
+}
+
+.active a {
+    color: #FCD36D;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FCD36D;;
+    text-decoration: none;
+}   
+
+img.disco{
+    margin:0 auto;
+    border-radius: 50%
+}
+
+.video video{
+    width: 100%;
+    border-radius:  15px;
+}
+
+
+/* -------------- INDEX ------------------*/
+.text-eventos {
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#carousel{
+    margin-top:26px;
+}
+
+.carousel-img {
+    height:800px;
+    width:2000px;
+}
+
+.img-ubicacion1{
+    height: 200px;
+}
+
+.info-evento {
+    margin:50px;
+}
+
+
+/* FOOTER ALL PAGES */ 
+footer {
+    background: #251F11;
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 970px;
+    text-align: center;
+}
+
+.footer h6 {
+    border-top: 1px solid #CCCCCC;
+    padding: 25px 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.footer .icono {
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    display: block;
+    height: 36px;
+    width: 36px;
+    background-image: url(../images/sprite.png);
+}
+
+.footer .fb {
+    background-position: 0 0;
+}
+
+.footer .gp {
+    background-position: 0 -36px;
+}
+
+.footer .tw {
+    background-position: -1px  -72px;
+}
+
+.footer .in {
+    background-position: -1px  -108px;
+}
+
+.footer .pi {
+    background-position: 0 -144px;
+}
+
+.footer .yt {
+    background-position: -1px  -180px;
+}
+
+.footer .ig {
+    background-position: -1px -216px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 479px) {    
+    .informacion {
+        margin: 15% auto;
+    }
+
+    .informacion-acercade{
+        margin:15% auto;
+    }
+
+    .text-acercade1 {
+        padding-top: 40px;
+    }
+
+    /* INDEX */
+    .informacion-index {
+        margin: -10% auto;
+    }
+
+    .info-evento{
+        margin:20px;
+    }
+
+    .img-ubicacion1{
+        height: 100px;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    
+    .informacion {
+        margin: 10% auto;
+    }
+
+    .informacion-index {
+        margin: 0 auto;
+    }
+
+    .informacion-acercade{
+        margin: 10% auto;
+    }
+
+    /* INDEX */
+    .img-ubicacion1{
+        height: 150px;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+
+    .informacion {
+        margin: 60px auto;
+    }
+
+    .informacion-acercade {
+        margin: 60px auto;
+    }
+
+    .informacion-index {
+        margin: 0 auto;
+    }
+
+    .text-acercade{
+        padding-top: 15px;
+    }
+
+    .text-acercade1 {
+        padding: 70px
+    }
+
+    .col-acercade1 {
+        height: 260px
+    }
+
+    .col-acercade2 {
+        height: 340px
+    }
+
+    .col-acercade3 {
+        height: 225px
+    }
+
+    .col-multi {
+        height: 340px;
+    }
+    .audio {
+        padding: 50px 100px;
+    }
+
+    /* MULTIMEDIA */
+    
+    .audio-playlist {
+        margin: 0 65px;
+        display: inline-block;
+    }
+
+    .col-multimedia{
+        height: 350px
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .info {
+        padding: 50px;
+    }
+
+    .col1{
+        height: 642px
+    }
+
+    .col-acercade1 {
+        height: 335px;
+    }
+
+    .col-acercade2 {
+        height: 315px;
+    }
+
+    .col-acercade3 {
+        height: 285px
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    
+}

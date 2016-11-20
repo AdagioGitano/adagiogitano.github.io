@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <!--       HOJAS DE ESTILO         -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!--          Scripts              -->
+    <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body class="multimedia">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Adagio Gitano</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Adagio Gitano</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html" class="active">Inicio<span class="sr-only">(current)</span></a></li>
+                        <li><a href="multimedia.html">Multimedia</a></li>
+                        <li><a href="acercade.html">Acerca de</a></li>
+                        <!-- <li><a href="Contacto.html">Contacto</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+              <li data-target="#carousel" data-slide-to="3"></li>
+              <li data-target="#carousel" data-slide-to="4"></li>
+              <li data-target="#carousel" data-slide-to="5"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <img src="images/carousel/Zinco1.jpg" alt="..." class="img-responsive carousel-img">
+                  <div class="carousel-caption">
+                      <h3>Zinco Jazz Club - Ciudad de México </h3>
+                  </div>
+              </div>
+              <div class="item">
+                  <img src="images/carousel/Zinco2.jpg" alt="..." class="img-responsive carousel-img">
+              </div>
+              <div class="item">
+                  <img src="images/carousel/Zinco3.jpg" alt="..." class="img-responsive carousel-img">
+              </div>
+              <div class="item">
+                  <img src="images/carousel/Breve1.jpg" alt="..." class="img-responsive carousel-img">
+                  <div class="carousel-caption">
+                      <h3>Breve Espacio - Puebla</h3>
+                  </div>
+              </div>
+              <div class="item">
+                  <img src="images/carousel/Breve2.jpg" alt="..." class="img-responsive carousel-img">
+              </div>
+              <div class="item">
+                  <img src="images/carousel/Breve3.jpg" alt="..." class="img-responsive carousel-img">
+              </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main class="container informacion-index">
+      <div class="row">
+        <div class="col-xs-12 col3">
+          <h2>Proximos eventos</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-xs-12 col-sm-6" >
+          <div class="info-evento">
+            <h3>Concierto en Los korales</h3>
+            <p class="text-eventos">
+              Invitados: Clepsidra 
+              <img src="images/clepsidra" alt="" class="img-invitado1">
+            </p>   
+            <img src="images/korales.png" alt="" class="img-ubicacion1"> 
+          </div>
+        </div>
+        <div class="col col-xs-12 col-sm-6">
+          
+        </div>
+      </div>
+    </main>
+    <footer>
+        <section class="footer">
+            <h6>Para mas información puedes seguirnos en:</h6>
+            <ul>
+                <li><a href="https://www.facebook.com/adagiogitano/" class="fb icono" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/adagio_gitano/" class="ig icono" target="_blank"></a></li>
+            </ul>
+        </section>
+    </footer>
+    <script>
+    $('.carousel').carousel({
+        interval: 3000
+    })
+    </script>
+</body>
+
+</html>

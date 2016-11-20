@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Multimedia</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <!--       HOJAS DE ESTILO         -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!--          Scripts              -->
+    <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/multimedia.js"></script>
+</head>
+
+<body class="multimedia">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Adagio Gitano</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        Adagio Gitano                   </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="active"><a href="multimedia.html">Multimedia<span class="sr-only">(current)</span></a></li>
+                        <li><a href="acercade.html">Acerca de</a></li>
+                        <!-- <li><a href="Contacto.html">Contacto</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container informacion">
+        <div class="musica-container">
+            <div class="row">
+                <div class="col-xs-12 col">
+                    <div class="playlist">
+                        <h2>Música</h2>
+                        <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+                            <source type="audio/mp3" src="Audio/Olvidar.mp3">
+                            Sorry, your browser does not support HTML5 audio.
+                        </audio>
+                        <div id="playlist">
+                            <h4>Lista de reproducción</h4>
+                            <ul>
+                                <li class="active"><a href="Audio/Olvidar">Olvidar</a></li>
+                                <li><a href="Audio/Rumor.mp3">Rumor</a></li>
+                                <li><a href="Audio/Versos de arena.mp3">Versos de arena</a></li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 video playlist col4">
+                    <h2>Versos de Arena</h2>  
+                    <video controls>
+                        <source type="video/mp4" src="Video/Versos de arena.mp4" />
+                        No se puede mostrar el video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer">
+            <h6>Para mas información puedes seguirnos en:</h6>
+            <ul>
+                <li><a href="https://www.facebook.com/adagiogitano/" class="fb icono" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/adagio_gitano/" class="ig icono" target="_blank"></a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="js/Multimedia.js"></script>
+</body>
+
+</html>
