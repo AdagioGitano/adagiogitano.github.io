@@ -82,9 +82,16 @@ label {
 }
 
 /*  CONTACTO */
-.form-group {
-    margin-bottom: 170px;
+.col-contacto {
+    margin: 54px 0;
+    padding:20px;
+    background-color: #241D11;
+    border-radius:15px;
+    box-shadow: 10px 10px 15px #FCD36D;
+    color:white;
 }
+
+
 
 /* INICIO PAGINA DE MULTIMEDIA */
 
@@ -172,7 +179,6 @@ img.disco{
 .info-evento {
     margin:50px;
 }
-
 
 /* FOOTER ALL PAGES */ 
 footer {
