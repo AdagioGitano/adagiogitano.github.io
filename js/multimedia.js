@@ -6,12 +6,12 @@ var current;
 init();
 function init(){
     current = 0;
-    audio = $('audio');
+    audio = $('#audio');
     playlist = $('#playlist');
     tracks = playlist.find('li a');
     len = tracks.length - 1;
-    audio[0].volume = .10;
-    audio[0].play();
+    // audio[0].volume = .10;
+    // audio[0].play();
     playlist.find('a').click(function(e){
         e.preventDefault();
         link = $(this);
