@@ -89,10 +89,6 @@ label {
     color:white;
 }
 
-.info-contacto{
-    padding:100px 45px;
-}
-
 .img-contacto{
     width:100%;
     border-radius: 15px;
@@ -397,6 +393,11 @@ footer {
     iframe {
         width:100%;
         height: 408px;
+    }
+
+    /*CONTACTO*/
+    .info-contacto{
+        padding:100px 45px;
     }
     
 }
