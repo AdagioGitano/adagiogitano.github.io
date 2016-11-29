@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: #2C2617;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -14,10 +14,8 @@ ul{
     list-style: none;
 }
 
-
-footer {
-    text-align: right;
-    color: white;
+ol, ul {
+    padding-bottom: 0;
 }
 
 label {
@@ -89,6 +87,14 @@ label {
     border-radius:15px;
     box-shadow: 10px 10px 15px #FCD36D;
     color:white;
+}
+
+.info-contacto{
+    padding:100px 0;
+}
+
+.img-contacto{
+    border-radius: 50%;
 }
 
 
@@ -191,19 +197,21 @@ iframe {
 
 /* FOOTER ALL PAGES */ 
 footer {
+    text-align: right;
+    color: white;
     background: #251F11;
 }
 
 .footer {
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 25px 0;
     max-width: 970px;
     text-align: center;
 }
 
 .footer h6 {
     border-top: 1px solid #CCCCCC;
-    padding: 25px 0;
+    padding: 15px 0;
     font-size: 16px;
     color: #FFFFFF;
     margin: 0;
