@@ -90,11 +90,12 @@ label {
 }
 
 .info-contacto{
-    padding:100px 0;
+    padding:100px 45px;
 }
 
 .img-contacto{
-    border-radius: 50%;
+    width:100%;
+    border-radius: 15px;
 }
 
 
