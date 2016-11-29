@@ -267,6 +267,7 @@ footer {
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 479px) {    
+
     .informacion {
         margin: 15% auto;
     }
@@ -300,6 +301,11 @@ footer {
         width:100%;
         height: 100%;
     }
+
+    /*CONTACTO*/
+    .info-contacto{
+        padding:100px 45px;
+    }
 }
 
 
@@ -332,6 +338,11 @@ footer {
     iframe {
         width:100%;
         height: 250px;
+    }
+
+    /*CONTACTO*/
+    .info-contacto{
+        padding:100px 45px;
     }
 }
 
