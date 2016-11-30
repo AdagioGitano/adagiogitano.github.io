@@ -192,6 +192,11 @@ iframe {
     margin:50px;
 }
 
+.info-evento p{
+    color:white;
+}
+
+
 /* FOOTER ALL PAGES */ 
 footer {
     text-align: right;
