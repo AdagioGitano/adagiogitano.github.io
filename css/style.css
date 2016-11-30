@@ -2,6 +2,12 @@ body {
     background: #2C2617;
 }
 
+h1{
+    font-weight:double;
+    font-size:50px;
+    text-shadow: 5px 5px 5px white;
+}
+
 h1,h2,h3,h4,h5,h6 {
     color: white;
 }
@@ -169,6 +175,7 @@ iframe {
 
 
 /* -------------- INDEX ------------------*/
+
 .text-eventos {
     color:white;
     font-weight: bold;
