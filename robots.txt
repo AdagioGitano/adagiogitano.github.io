@@ -1,3 +1,3 @@
 User agent: *
 Allow: /
-Sitemap: http://adagiogitano.github.io/sitemap.xml
+Sitemap: https://adagiogitano.github.io/sitemap.xml
