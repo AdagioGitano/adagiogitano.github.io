@@ -188,6 +188,10 @@ iframe {
 
 /* -------------- INDEX ------------------*/
 
+ol li {
+    color:white;
+}
+
 .text-eventos {
     color: white;
     font-weight: bold;
