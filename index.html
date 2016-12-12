@@ -12,18 +12,15 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <meta name="robots" content="index, follow" />
     <!-- Descripcion de busquedas -->
-    <meta name="description" content="Adagio Gitano es una agrupación Costarricense desde el 2014 con ritmos latinoamericanos y donde se logran integrar conceptos como funk, blues,bossa-nova y tango." />    
-
+    <meta name="description" content="Adagio Gitano es una agrupación Costarricense desde el 2014 con ritmos latinoamericanos y donde se logran integrar conceptos como funk, blues,bossa-nova y tango." />
     <!-- FACEBOOK -->
     <meta property="og:url" content="https://adagiogitano.github.io/index.html" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Adagio Gitano" />
     <meta property="og:description" content="Adagio Gitano es una agrupación Costarricense desde el 2014 con ritmos latinoamericanos como choro, bossa nova, y generos mas reconocidos como lo son el blues, el funk." />
     <meta property="og:image" content="images/logo.png" />
-
     <!-- GOOGLE SEARCH -->
     <meta name="google-site-verification" content="16Sx6mVNh-zW5LryzGHQZUEgdvYGPGAZ70O2KaQ1-NQ" />
-
     <!--       HOJAS DE ESTILO         -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -119,59 +116,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-xs-12">
-                <div class="info-evento">
-                    <h3>FERCORI - IMAS</h3>
-                    <p>
-                        Fecha: 10/12/2016
-                    </p>
-                    <p>
-                        Hora: 5:30 PM
-                    </p>
-                    <p>
-                        Dirección: Calle 23, San José, Costa Rica, Antigua Aduana.
-                        <a href="https://goo.gl/maps/g3t4U8tgT5w" target="_blank"> Ubicación </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col col-xs-12">
-                <div class="info-evento">
-                    <h3>Aserrí</h3>
-                    <p class="text-eventos">
-                        Fecha: 11/12/2016
-                    </p>
-                    <p>
-                        Hora: 5:30 PM
-                    </p>
-                    <p>
-                        Dirección: parque central de Aserrí.
-                        <a href="https://goo.gl/maps/PyzjLcAgEU92"> Ubicación </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col col-xs-12">
-                <div class="info-evento">
-                    <h3>Rock House Pub</h3>                    
-                    <p>
-                        Fecha: 15 /12 / 16 - Hora: 8 PM
-                    </p>
-                    <h4>Promociones</h4>
-                    <ol>
-                        <li>Cerveza Tropper normal ₡1800</li>
-                        <li>CervezaTrooper edición especial ₡2800</li>
-                    </ol>
-                    <p>
-                        <strong> Adicionalmente se rifara un sifón de 5 litros de Trooper </strong>
-                    </p>
-                    <p>
-                        Dirección: 240 mts oeste del ICE de la Florida Tibás, en Plaza Tibás.
-                        <a href="https://goo.gl/maps/5PWXgjiiPCv" target="_blank"> Ubicación </a>
-                    </p>
-                </div>
+            <div class="col-xs-12 col">
+                <img src="images/afiches/afichehouse.jpg" alt="Afiche" class="img-responsive">
+                <p>
+                    Dirección: 240 mts oeste del ICE de la Florida Tibás, en Plaza Tibás.
+                    <a href="https://goo.gl/maps/5PWXgjiiPCv" target="_blank"> Ubicación </a>
+                </p>
             </div>
         </div>
     </main>
@@ -185,13 +135,13 @@
                     </li>
                     <li>
                         <a href="https://www.instagram.com/adagio_gitano/" class="ig icono" target="_blank"></a>
-                    </li>                    
+                    </li>
                     <li>
                         <a href="https://www.youtube.com/channel/UC7lAj9rbe-RMn0ML6EPKGvQ" class="yt icono" target="_blank"></a>
                     </li>
                 </ul>
             </div>
-             <div class="footer-share">
+            <div class="footer-share">
                 <div id="fb-root"></div>
                 <script>
                 (function(d, s, id) {
@@ -211,6 +161,11 @@
     $('.carousel').carousel({
         interval: 3000
     })
+
+    $("#pop").on("click", function() {
+        $('#imagepreview').attr('src', $('#imageresource').attr('src')); // here asign the image to the modal when the user click the enlarge link
+        $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+    });
     </script>
 </body>
 
