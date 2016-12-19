@@ -219,6 +219,13 @@ ol li {
     color: white;
 }
 
+.maps {
+    margin:25px auto;
+}
+
+.afiche {
+    margin:13px auto;
+}
 
 /* FOOTER ALL PAGES */
 
@@ -428,6 +435,11 @@ footer {
     .audio {
         padding: 50px 100px;
     }
+
+    .maps{
+        height: 238px;
+    }
+
     /* MULTIMEDIA */
     .audio-playlist {
         margin: 0 65px;
@@ -456,6 +468,7 @@ footer {
     .multimedia {
         background: black url(../images/logo.png) repeat;
     }
+
     .info {
         padding: 50px;
     }
@@ -503,6 +516,10 @@ footer {
     .text-acercade6 {
         padding-top: 25px
     }
+    /* INDEX */
+    .maps{
+        height: 312px;
+    }
     /*Multimedia*/
     iframe {
         width: 100%;
@@ -522,9 +539,15 @@ footer {
         width: 100%;
         height: 630px;
     }
+
     iframe .audio-playlist {
         width: 100%;
     }
+
+    .maps{
+        height: 352px;
+    }
+
     .image-acerca {
         margin: 8px auto;
     }
