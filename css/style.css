@@ -212,7 +212,13 @@ ol li {
 }
 
 .info-evento {
-    margin: 50px;
+    margin: 5px auto;
+    height: 450px;
+}
+
+.info-evento-map {
+    margin: 0 auto;
+    height: 488px;
 }
 
 .info-evento p {
@@ -327,7 +333,8 @@ footer {
         margin: -10% auto;
     }
     .info-evento {
-        margin: 20px;
+        margin: 0px;
+        height: 350px;
     }
     .img-ubicacion1 {
         height: 100px;
