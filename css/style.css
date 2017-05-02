@@ -35,6 +35,11 @@ label {
     color: white;
 }
 
+/* información del boton me gusta de la pagina */
+div > span {
+    color:white;
+}
+
 
 /* INICIO PAGINA DE ACERCA DE */
 
