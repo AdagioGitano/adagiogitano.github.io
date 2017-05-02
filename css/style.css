@@ -35,9 +35,13 @@ label {
     color: white;
 }
 
-/* información del boton me gusta de la pagina */
-._51mz {
-    color: white;
+/* información del boton me gusta de la pagina 
+._51mx:last-child>._51m- {
+    color: white !important;
+}
+*/
+._51mx {
+    color: white !important;
 }
 
 
