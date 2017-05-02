@@ -36,8 +36,11 @@ label {
 }
 
 /* información del boton me gusta de la pagina */
-._51mx:last-child>._51m- {
-    color: white !important;
+.fb-like .fb_iframe_widget {
+    background: #222222;
+    height: 47px;
+    border-radius: 10px 0 10px 0;
+    padding: 0 15px;
 }
 
 
