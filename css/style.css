@@ -98,7 +98,7 @@ label {
 }
 
 .image-acerca1 {
-    margin: 45px auto;
+    margin: 50px auto;
 }
 
 .image-acercade {
@@ -442,29 +442,29 @@ footer {
         padding-top: 45px;
     }
     .text-acercade1 {
-        padding-top: 60px;
+        padding-top: 10px;
     }
     .text-acercade2 {
-        padding-top: 80px;
+        padding-top: 85px;
     }
     .text-acercade3 {
         padding-top: 8px;
     }
     .text-acercade4 {
-        padding-top: 35px;
+        padding-top: 45px;
     }
     .text-acercade5 {
-        padding: 31px 0;
+        padding: 80px 0;
     }
     .text-acercade6 {
-        padding-top: 68px;
+        padding-top: 60px;
     }
 
     .col-acercade1 {
-        height: 328px;
+        height: 320px;
     }
     .col-acercade2 {
-        height: 340px
+        height: 235px;
     }
     .col-acercade3 {
         height: 278px;
@@ -516,13 +516,13 @@ footer {
     }
 
     .info {
-        padding: 50px;
+        padding: 8px 25px;
     }
     .col1 {
         height: 642px
     }
     .col-acercade1 {
-        height: 335px;
+        height: 250px   ;
     }
     .col-acercade2 {
         height: 222px;
@@ -549,22 +549,22 @@ footer {
         border-radius: 15px;
     }
     .text-acercade {
-        padding-top: 25px;
+        padding-top: 30px;
     }
     .text-acercade1 {
-        padding-top: 25px;
+        padding-top: 22px;
     }
     .text-acercade2 {
-        padding-top: 50px;
+        padding-top: 43px;
     }
     .text-acercade3 {
         padding-top: 0;
     }
     .text-acercade4 {
-        padding-top: 0;
+        padding-top: 22px;
     }
     .text-acercade5 {
-        padding-top: 30px
+        padding-top: 50px
     }
     .text-acercade6 {
         padding-top: 25px
@@ -620,7 +620,7 @@ footer {
     }
 
     .image-acerca {
-        margin: 8px auto;
+        margin: 14px auto;
     }
     .col-acercade3 {
         height: 435px;
